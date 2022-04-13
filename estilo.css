@@ -3,7 +3,9 @@
     margin:0px;
     padding:0px;
 }
-
+.nav{
+    padding:10px 30px;
+}
 .cabz{
     display:flex;
     justify-content:space-between;
@@ -17,7 +19,6 @@
     z-index:1;
 
 }
-
 .cabz > a{
     text-decoration:none;
     color:black;
@@ -43,7 +44,7 @@
 }
 
 .cabz > ul li:hover{
-    background-color:#aaa;
+    background-color:#000000;
 }
 
 .top-img{
@@ -54,7 +55,7 @@
     max-width:100%;
 }
 
-.top-img > figcaption{
+.top-img > h3{
     position:absolute;
     color:white;
     top:55%;
@@ -63,13 +64,13 @@
     transform:translate(-50%,-50%);
 }
 
-.top-img > figcaption b:first-child{
+.top-img > h3 b:first-child{
     font-size:2.5em;
     padding:6px 18px;
     background-color:rgba(0,0,0,0.7);
 }
 
-.top-img > figcaption > b:nth-child(2){
+.top-img > h3 > b:nth-child(2){
     display:none;
 }
 
@@ -86,7 +87,9 @@
     justify-content:space-between;
     flex-wrap:wrap;
 }
-
+p{
+    padding:10px 15px;
+}
 h1{
     font-size:1.5em;
     font-style:normal;
@@ -108,7 +111,7 @@ hr{
     width:100%;
 }
 
-.hous > figcaption{
+.hous > h3{
     position:absolute;
     top:0px;
     left:0px;
@@ -163,34 +166,7 @@ hr{
     margin-bottom:370px;
 }
 
-.contact > form{
-    display:flex;
-    flex-direction:column;
-}
 
-.contact > form > input[type=text]{
-    width:100%;
-    padding:10px 20px;
-    margin:8px 0px;
-    opacity:0.6;
-}
-
-.contact > form > button{
-    background-color:black;
-    color:white;
-    padding:10px 12px;
-    text-align:center;
-    text-decoration:none;
-    width:160px;
-    font-size:16px;
-    margin-top:25px;
-    border:none;
-}
-
-.contact > form > button:hover{
-    background-color:#aaa;
-    color:black;
-}
 
 .footer{
     background-color:black;
@@ -201,52 +177,3 @@ hr{
     text-align:center;
 }
 
-@media only screen and (min-width:641px){
-
-    .cabz > ul{
-    display:inline-block;
-    }
-
-    .casas{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    }
-
-    .casas > .hous > img{
-    width:100%;
-    object-fit:cover;
-    }
-
-    .casas > .hous, .cromos > .cromo{
-    flex: 1 1 18.5em;
-    margin:5px;
-    }
-}
-
-@media only screen and (min-width:1025px){
-    .casas > .hous, .cromos > .cromo{
-    flex:1 1 20%;
-    }
-}
-
-@media only screen and (min-width:1520px){
-
-    .top-img, .bloque_1{
-    max-width:85%;
-    width:100%;
-    margin:auto;
-    }
-
-    .top-img > img{
-    width:100%;
-    }
-
-    .casas, .cromos{
-    flex-wrap:wrap;
-    }
-
-    .casas > .hous{
-    flex: 1 1 20%;
-    }
-}
