@@ -182,8 +182,19 @@ hr{
     marging-left: 7px;
     marging-right: 7px;
 }
-iframe{
-  
+#video{
+    position:relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+#video iframe,
+#video object,
+#video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
 }
