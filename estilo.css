@@ -5,6 +5,7 @@
 }
 .nav{
     padding:10px 30px;
+    text-decoration: none;
 }
 .cabz{
     display:flex;
