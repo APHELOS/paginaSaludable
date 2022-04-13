@@ -54,9 +54,10 @@ a{
 .top-img{
     position:relative;
     background-color: black;
-    opacity: 0.3;
 }
-
+.top-img img{
+    opacity: 0.5;
+}
 .top-img > img{
     max-width:100%;
 }
@@ -67,7 +68,7 @@ a{
     top:55%;
     left:50%;
     text-align:center;
-    transform:translate(-30%,-30%);
+    transform:translate(-50%,-50%);
 }
 
 .top-img > h3 b:first-child{
