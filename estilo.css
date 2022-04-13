@@ -28,6 +28,9 @@
     width:150px;
     padding:7px 4px;
 }
+a{
+    text-decoration: none;
+}
 
 .cabz > a:hover{
     background-color:#aaa;
