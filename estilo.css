@@ -175,6 +175,9 @@ hr{
     margin-bottom: 10px;
     border-radius: 10px;
 }
+.section iframe{
+    object-fit: cover;
+}
 #contactos img {
     height: 30px;
     width: 30px;
