@@ -166,7 +166,12 @@ hr{
     margin-bottom:370px;
 }
 
-
+#contactos img {
+    height: 50px;
+    width: 50px;
+    marging-left: 7px;
+    marging-right: 7px;
+}
 
 .footer{
     background-color:black;
