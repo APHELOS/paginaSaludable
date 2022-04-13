@@ -30,6 +30,7 @@
 }
 a{
     text-decoration:none;
+    text-color: black;
 }
 .cabz > a:hover{
     background-color:#aaa;
