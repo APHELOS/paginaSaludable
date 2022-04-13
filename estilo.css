@@ -166,7 +166,12 @@ hr{
 .contact{
     margin-bottom:370px;
 }
-
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 #contactos img {
     height: 50px;
     width: 50px;
