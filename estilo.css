@@ -53,6 +53,8 @@ a{
 
 .top-img{
     position:relative;
+    background-color: black;
+    opacity: 0.3;
 }
 
 .top-img > img{
