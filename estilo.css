@@ -99,8 +99,9 @@ a{
     background-color:rgba(0,0,0,0.4);
     color:#fff;
 }
-p {
+.cuadro p {
     overflow:hiden;
+    color: white;
 }
 
 .cuerpo-text h5,
