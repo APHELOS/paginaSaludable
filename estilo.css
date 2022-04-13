@@ -178,7 +178,9 @@ hr{
     marging-left: 7px;
     marging-right: 7px;
 }
-
+iframe{
+    background-size: cover;
+}
 .footer{
     background-color:black;
     bottom:0;
