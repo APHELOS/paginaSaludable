@@ -49,7 +49,9 @@ a{
 .cabz > ul li:hover{
     background-color:#000000;
 }
-
+.nav a:link{
+    color: violent;
+}
 .top-img{
     position:relative;
     background-color: black;
