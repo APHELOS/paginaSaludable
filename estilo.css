@@ -128,11 +128,12 @@ a{
     flex-wrap:wrap;
 }
 p{
-    padding:10px 15px;
+    padding:10px 20px;
 }
 h1{
     font-size:1.5em;
     font-style:normal;
+    padding:10px;
 }
 
 hr{
@@ -223,6 +224,9 @@ hr{
     padding-top: 30px; /* IE6 workaround*/
     height: 0;
     overflow: hidden;
+}
+h4{
+    padding:10px;
 }
 #video h4{
     text-align: center;
