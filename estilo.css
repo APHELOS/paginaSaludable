@@ -50,7 +50,7 @@ a{
     background-color:#000000;
 }
 .nav a:link{
-    color: violent;
+    color: green;
 }
 .top-img{
     position:relative;
@@ -101,7 +101,7 @@ a{
     color:#fff;
 }
 .cuadro a:link{
-    color: white;
+    color:#fff;
 }
 .cuadro a{
     text-color:white;
