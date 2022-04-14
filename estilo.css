@@ -50,7 +50,10 @@ a{
     background-color:#000000;
 }
 .nav a:link{
-    color: green;
+    color: violet;
+}
+.nav a:visited{
+    color:red;
 }
 .top-img{
     position:relative;
@@ -101,6 +104,9 @@ a{
     color:#fff;
 }
 .cuadro a:link{
+    color:#fff;
+}
+.cuadro a:visited{
     color:#fff;
 }
 .cuadro a{
