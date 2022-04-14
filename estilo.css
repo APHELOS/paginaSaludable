@@ -101,7 +101,10 @@ a{
     color:#fff;
 }
 .cuadro a:link{
-    color:white;
+    color:#fff;
+}
+.cuadro a{
+    text-color:white;
 }
 
 .cuerpo-text h5,
