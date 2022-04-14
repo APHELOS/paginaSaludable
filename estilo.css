@@ -99,9 +99,8 @@ a{
     background-color:rgba(0,0,0,0.4);
     color:#fff;
 }
-.cuadro p {
-    overflow:hiden;
-    color: white;
+.cuadro a:link{
+    color:white;
 }
 
 .cuerpo-text h5,
